@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onKeyPressed="#sendMesgEnter" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #fafafa;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="myApp.scene.MainScene">
+   <children>
+      <AnchorPane layoutX="100.0" prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #2E3348;">
+         <children>
+            <TextField fx:id="chatInfo" focusTraversable="false" layoutX="14.0" layoutY="10.0" prefHeight="27.0" prefWidth="488.0" style="-fx-background-color: #2E3348; -fx-border-color: #2E3348; -fx-text-inner-color: white;">
+               <font>
+                  <Font name="Impact" size="15.0" />
+               </font>
+            </TextField>
+            <Button layoutX="522.0" layoutY="8.0" minWidth="27.0" mnemonicParsing="false" onMouseClicked="#addPrivateChat" prefHeight="34.0" prefWidth="57.0" style="-fx-background-color: #F39C63; -fx-background-radius: 5;" textFill="WHITE">
+               <font>
+                  <Font name="Impact" size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="27.0" fitWidth="35.0" layoutX="537.0" layoutY="12.0" onMouseClicked="#addPrivateChat" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@plus-black-symbol_icon-icons.com_73453.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="100.0" style="-fx-background-color: #2E3348;">
+         <children>
+            <VBox fx:id="vBox" prefHeight="400.0" prefWidth="100.0" />
+         </children></AnchorPane>
+      <Button fx:id="registrationBtn" layoutX="588.0" layoutY="365.0" mnemonicParsing="false" onMouseClicked="#sendMessage" prefHeight="34.0" prefWidth="112.0" style="-fx-background-color: #F39C63; -fx-background-radius: 5;" text="Отправить" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="inputArea" layoutX="100.0" layoutY="365.0" prefHeight="34.0" prefWidth="434.0" promptText="Введите сообщение" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+         <font>
+            <Font name="Impact" size="15.0" />
+         </font>
+      </TextField>
+      <TextArea fx:id="messageArea" editable="false" focusTraversable="false" layoutX="100.0" layoutY="50.0" prefHeight="316.0" prefWidth="600.0" style="-fx-background-color: #fafafa; -fx-border-color: #fafafa; -fx-outline: 0;" wrapText="true">
+         <font>
+            <Font name="Segoe UI Emoji" size="15.0" />
+         </font>
+      </TextArea>
+      <AnchorPane fx:id="addPrivateChatAnchPane" layoutX="219.0" layoutY="119.0" prefHeight="180.0" prefWidth="244.0" style="-fx-background-color: #2E3348;" visible="false">
+         <children>
+            <TextField fx:id="inputAddLogin" layoutY="149.0" onKeyPressed="#printLogin" prefHeight="34.0" prefWidth="162.0" promptText="Введите логин" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font name="Impact" size="12.0" />
+               </font>
+            </TextField>
+            <Button fx:id="addBtn" layoutX="162.0" layoutY="149.0" mnemonicParsing="false" onMouseClicked="#addBtn" prefHeight="34.0" prefWidth="81.0" style="-fx-background-color: #F39C63; -fx-background-radius: 5;" text="Добавить" textFill="WHITE">
+               <font>
+                  <Font name="Impact" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="exitBtn" layoutX="186.0" mnemonicParsing="false" onMouseClicked="#exitAddPrivateChat" prefHeight="34.0" prefWidth="58.0" style="-fx-background-color: #F39C63; -fx-background-radius: 5;" textFill="WHITE">
+               <font>
+                  <Font name="Impact" size="15.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="51.0" onMouseClicked="#exitAddPrivateChat" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@delete_delete_exit_1577.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <TextArea fx:id="errIncorrectInput" editable="false" layoutX="49.0" layoutY="70.0" prefHeight="42.0" prefWidth="146.0" style="-fx-background-color: #2E3348;" text="Ошибка. Введите логин в формате @логин" visible="false" wrapText="true" />
+            <TextArea fx:id="errLoginNotFound" editable="false" layoutX="49.0" layoutY="70.0" prefHeight="42.0" prefWidth="146.0" style="-fx-background-color: #2E3348;" text="Ошибка. Пользователь не найден" visible="false" wrapText="true" />
+            <TextArea fx:id="errIsYourLogin" editable="false" layoutX="49.0" layoutY="70.0" prefHeight="42.0" prefWidth="146.0" style="-fx-background-color: #2E3348;" text="Ошибка. Вы ввели свой логин" visible="false" wrapText="true" />
+            <TextArea fx:id="errOutOfMemory" editable="false" layoutX="49.0" layoutY="70.0" prefHeight="42.0" prefWidth="146.0" style="-fx-background-color: #2E3348;" text="Ошибка. Файл слишком большой" visible="false" wrapText="true" />
+         </children>
+      </AnchorPane>
+      <TextField fx:id="currentLogin" layoutX="90.0" layoutY="-47.0" visible="false" />
+      <Button layoutX="534.0" layoutY="367.0" mnemonicParsing="false" onMouseClicked="#choiceFile" prefHeight="32.0" prefWidth="54.0" style="-fx-background-color: #F39C63; -fx-background-radius: 5;" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="15.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="23.0" fitWidth="25.0" onMouseClicked="#choiceFile" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@free-icon-plus-cross-17128%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

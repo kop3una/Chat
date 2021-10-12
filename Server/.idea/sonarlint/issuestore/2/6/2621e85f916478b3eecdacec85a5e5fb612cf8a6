@@ -1,0 +1,9 @@
+
+u
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ó©Ëˆ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(â›´Ÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(ó©Ëˆ
+J
+java:S6212"/Declare this local variable with "var" instead.(ùó›Ìøÿÿÿÿ

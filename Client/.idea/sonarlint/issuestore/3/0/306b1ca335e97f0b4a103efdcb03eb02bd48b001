@@ -1,0 +1,12 @@
+
+z
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÿ¸Ğ¹üÿÿÿÿ
+A
+java:S1168$"+Return an empty collection instead of null.(¥¹ï
+A
+java:S1168-"+Return an empty collection instead of null.(¥¹ï
+†
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ò•¹
+†
+java:S1319'"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(á÷œ÷
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™ô†Ä

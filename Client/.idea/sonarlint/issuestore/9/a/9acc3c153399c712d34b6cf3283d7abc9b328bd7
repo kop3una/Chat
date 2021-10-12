@@ -1,0 +1,8 @@
+
+u
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÀŒŽ³
+u
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¿Ê¢É
+,
+java:S1700"Rename field "message"(ÀŒŽ³
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™ô†Ä

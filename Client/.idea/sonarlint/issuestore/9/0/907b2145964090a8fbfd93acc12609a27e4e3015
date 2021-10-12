@@ -1,0 +1,24 @@
+
+{
+java:S1149Ò"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(±ĞÔ»úÿÿÿÿ
+v
+java:S1149Ù"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(šÆŞ¯
+{
+java:S1149é"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¢Šûÿÿÿÿ
+O	java:S106—"9Replace this use of System.out or System.err by a logger.(ÎĞ¯
+Q
+java:S1854Ï":Remove this useless assignment to local variable "myFile".(›Şâ÷
+B
+java:S1481Ï"+Remove this unused "myFile" local variable.(›Şâ÷
+W	java:S125â"<This block of commented-out lines of code should be removed.(³ó·»ıÿÿÿÿ
+R	java:S125ÿ"<This block of commented-out lines of code should be removed.(½”€
+W	java:S125…"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
+R	java:S125‰"<This block of commented-out lines of code should be removed.(¾ë¶ñ
+W	java:S125"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
+O
+java:S1117¦"8Rename "user" which hides the field declared at line 31.(Ç­‚û
+O
+java:S1117±"8Rename "user" which hides the field declared at line 31.(Û¯«õ
+O
+java:S1117Â"8Rename "user" which hides the field declared at line 31.(Û¯«õ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¥Ê­©

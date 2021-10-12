@@ -1,0 +1,28 @@
+
+z
+java:S1149
+"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(íÕÂãùÿÿÿÿ
+z
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(íÕÂãùÿÿÿÿ
+z
+java:S11494"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¦ç½øÿÿÿÿ
+z
+java:S1149W"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¦ç½øÿÿÿÿ
+u
+java:S1149j"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(è¡ï–
+z
+java:S1149p"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¡ö¦Ñüÿÿÿÿ
+z
+java:S1149w"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¡ö¦Ñüÿÿÿÿ
+{
+java:S1149‡"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Áš¥°şÿÿÿÿ
+v
+java:S1149–"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(è¡ï–
+>	java:S108'")Either remove or fill this block of code.(òµ¡ò
+W
+java:S1126"AReplace this if-then-else statement by a single return statement.(Şöà’
+Z
+java:S1854˜">Remove this useless assignment to local variable "newMessage".(¨ê½øùÿÿÿÿ
+<
+java:S2129˜" Remove this "String" constructor(¨ê½øùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™ô†Ä

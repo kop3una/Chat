@@ -1,0 +1,9 @@
+
+=
+java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+j
+java:S1450"URemove the "thread" field and declare it as a local variable in the relevant methods.(â£Ÿ4
+n
+java:S1450"SRemove the "user" field and declare it as a local variable in the relevant methods.(’Ø¾ıÿÿÿÿ
+k	java:S116"VRename this field "UserFactory" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç°¾
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¢ÛÓÉ

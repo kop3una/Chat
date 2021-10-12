@@ -1,0 +1,11 @@
+
+k
+java:S1450"URemove the "gender" field and declare it as a local variable in the relevant methods.(ÀÄŒ
+r
+java:S1450"WRemove the "location" field and declare it as a local variable in the relevant methods.(Ìöïüÿÿÿÿ
+@
+java:S1068"*Remove this unused "status" private field.(·â¼
+@
+java:S1068"*Remove this unused "gender" private field.(ÀÄŒ
+G
+java:S1068",Remove this unused "location" private field.(Ìöïüÿÿÿÿ

@@ -1,0 +1,15 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(æšÀ€
+2
+java:S1116E"Remove this empty statement.(´å§¬
+j
+java:S11925"ODefine a constant instead of duplicating this literal "SELECT * FROM " 3 times.(“ÃŠÓÿÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à›÷‚ÿÿÿÿÿ
+e
+java:S2095M"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ëŸÂö
+j
+java:S2095!"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ëäÄ©ıÿÿÿÿ
+e
+java:S20958"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ëŸÂö
+e
+java:S2095D"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ëŸÂö

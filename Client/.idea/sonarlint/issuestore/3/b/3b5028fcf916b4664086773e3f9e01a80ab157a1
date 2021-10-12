@@ -1,0 +1,11 @@
+
+q	java:S116"WRename this field "FRIEND_LOGIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á’Ùàøÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(Á’Ùàøÿÿÿÿ
+h
+java:S3776'"RRefactor this method to reduce its Cognitive Complexity from 74 to the 15 allowed.(“–ýþ
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(ºÛíþÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ
+†
+java:S1319"kThe type of "buttonsList" should be an interface such as "List" rather than the implementation "ArrayList".(ü‰…ªûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÓËñæüÿÿÿÿ

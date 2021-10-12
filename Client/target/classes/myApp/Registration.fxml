@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="myApp.scene.RegistrationScene">
+    <children>
+        <AnchorPane layoutY="120.0" prefHeight="280.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+            <children>
+            <TextField fx:id="signUpName" layoutX="20.0" layoutY="17.0" prefHeight="34.0" prefWidth="300.0" promptText="Имя                                                           *" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="signUpSurname" layoutX="380.0" layoutY="17.0" prefHeight="34.0" prefWidth="300.0" promptText="Фамилия" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+                <TextField fx:id="signUpLogin" layoutX="20.0" layoutY="88.0" prefHeight="34.0" prefWidth="300.0" promptText="Логин                                                        *" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </TextField>
+                <PasswordField fx:id="signUpPassword" layoutX="380.0" layoutY="88.0" prefHeight="34.0" prefWidth="300.0" promptText="Пароль                                                      *" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </PasswordField>
+            <CheckBox fx:id="manCheckBox" layoutX="250.0" layoutY="147.0" mnemonicParsing="false" text="Мужчина" />
+            <CheckBox fx:id="womanCheckBox" layoutX="380.0" layoutY="147.0" mnemonicParsing="false" text="Женщина" />
+            <TextField fx:id="signUpLocation" layoutX="250.0" layoutY="184.0" prefHeight="34.0" prefWidth="200.0" promptText="Город" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+                <Button fx:id="signUpBtn" layoutX="256.0" layoutY="230.0" mnemonicParsing="false" onMouseClicked="#registration" prefHeight="35.0" prefWidth="187.0" style="-fx-background-color: #2E3348;" text="Зарегистрироваться" textFill="WHITE">
+                    <font>
+                        <Font name="Impact" size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <Label layoutX="308.0" layoutY="28.0" text="Чат" textFill="WHITE">
+            <font>
+                <Font name="Impact" size="56.0" />
+            </font>
+        </Label>
+      <Button fx:id="registrationBtn" layoutX="610.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#exit" prefHeight="28.0" prefWidth="76.0" style="-fx-background-color: #F39C63;" text="Выход" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="15.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

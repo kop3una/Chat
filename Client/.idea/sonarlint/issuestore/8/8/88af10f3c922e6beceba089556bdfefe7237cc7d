@@ -1,0 +1,21 @@
+
+Z
+java:S2147"DCombine this catch with the one at line 23, which has the same body.(ï­£Ä
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(´ðë§
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(Ê›‹…
+V	java:S125*"<This block of commented-out lines of code should be removed.(§¡ÒÂûÿÿÿÿ
+A
+java:S1075."&Remove this hard-coded path-delimiter.(àÔðçûÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(´ðë§
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(Ê›‹…
+A
+java:S10756"&Remove this hard-coded path-delimiter.(„®æ…üÿÿÿÿ
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(Û×àá
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(ý™øøÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ì¬û‡
+i
+java:S2095:"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ÚÄ½ëùÿÿÿÿ
+h
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ªÄÐ¹þÿÿÿÿ
+i
+java:S2095E"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(‹õîýÿÿÿÿ

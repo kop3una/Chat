@@ -1,0 +1,24 @@
+
+
+java:S1319"tThe type of the "usersList" object should be an interface such as "List" rather than the implementation "ArrayList".(ŠĞşøÿÿÿÿ
+=
+java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+l	java:S1278"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK
+l	java:S127I"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ğÎæøÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ú¤ê‚üÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(–¿ã
+N	java:S106"9Replace this use of System.out or System.err by a logger.(†İÌ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(ºÛíşÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(Î€¥ßıÿÿÿÿ
+E
+java:S6212/"/Declare this local variable with "var" instead.(şéöÄ
+Q	java:S1252"<This block of commented-out lines of code should be removed.(ë†Õ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(«›æ¸úÿÿÿÿ
+E
+java:S6212>"/Declare this local variable with "var" instead.(şéöÄ
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(«›æ¸úÿÿÿÿ
